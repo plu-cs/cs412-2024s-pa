@@ -44,7 +44,6 @@ function main() : void {
 
     const gui = new GUI();
     const drawingNames = Object.keys(lineDrawings);
-    for( const n of Object.keys(lineDrawings) ) console.log(n);
     gui.add( selected, "drawing", drawingNames ).onFinishChange( (v : keyof typeof lineDrawings) => {
         drawing = lineDrawings[v];
         draw();
