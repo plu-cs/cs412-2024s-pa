@@ -1,0 +1,10 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.debugConfig": {
+        "cwd": "${workspaceFolder}",
+        "args": [ ]
+    },
+    "files.associations": {
+        "optional": "cpp"
+    }
+}
